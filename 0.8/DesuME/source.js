@@ -379,20 +379,22 @@ var _Sources = (() => {
   var require_exports = __commonJS({
     "node_modules/@paperback/types/lib/generated/_exports.js"(exports) {
       "use strict";
-      var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
+      var __createBinding = exports && exports.__createBinding || (Object.create ? function (o, m, k, k2) {
         if (k2 === void 0) k2 = k;
         var desc = Object.getOwnPropertyDescriptor(m, k);
         if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-          desc = { enumerable: true, get: function() {
-            return m[k];
-          } };
+          desc = {
+            enumerable: true, get: function () {
+              return m[k];
+            }
+          };
         }
         Object.defineProperty(o, k2, desc);
-      } : function(o, m, k, k2) {
+      } : function (o, m, k, k2) {
         if (k2 === void 0) k2 = k;
         o[k2] = m[k];
       });
-      var __exportStar = exports && exports.__exportStar || function(m, exports2) {
+      var __exportStar = exports && exports.__exportStar || function (m, exports2) {
         for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports2, p)) __createBinding(exports2, m, p);
       };
       Object.defineProperty(exports, "__esModule", { value: true });
@@ -510,7 +512,7 @@ var _Sources = (() => {
       Object.defineProperty(exports, "__esModule", { value: true });
       exports.BadgeColor = void 0;
       var BadgeColor2;
-      (function(BadgeColor3) {
+      (function (BadgeColor3) {
         BadgeColor3["BLUE"] = "default";
         BadgeColor3["GREEN"] = "success";
         BadgeColor3["GREY"] = "info";
@@ -580,20 +582,22 @@ var _Sources = (() => {
   var require_interfaces = __commonJS({
     "node_modules/@paperback/types/lib/base/interfaces/index.js"(exports) {
       "use strict";
-      var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
+      var __createBinding = exports && exports.__createBinding || (Object.create ? function (o, m, k, k2) {
         if (k2 === void 0) k2 = k;
         var desc = Object.getOwnPropertyDescriptor(m, k);
         if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-          desc = { enumerable: true, get: function() {
-            return m[k];
-          } };
+          desc = {
+            enumerable: true, get: function () {
+              return m[k];
+            }
+          };
         }
         Object.defineProperty(o, k2, desc);
-      } : function(o, m, k, k2) {
+      } : function (o, m, k, k2) {
         if (k2 === void 0) k2 = k;
         o[k2] = m[k];
       });
-      var __exportStar = exports && exports.__exportStar || function(m, exports2) {
+      var __exportStar = exports && exports.__exportStar || function (m, exports2) {
         for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports2, p)) __createBinding(exports2, m, p);
       };
       Object.defineProperty(exports, "__esModule", { value: true });
@@ -614,7 +618,7 @@ var _Sources = (() => {
       Object.defineProperty(exports, "__esModule", { value: true });
       exports.ContentRating = exports.SourceIntents = void 0;
       var SourceIntents2;
-      (function(SourceIntents3) {
+      (function (SourceIntents3) {
         SourceIntents3[SourceIntents3["MANGA_CHAPTERS"] = 1] = "MANGA_CHAPTERS";
         SourceIntents3[SourceIntents3["MANGA_TRACKING"] = 2] = "MANGA_TRACKING";
         SourceIntents3[SourceIntents3["HOMEPAGE_SECTIONS"] = 4] = "HOMEPAGE_SECTIONS";
@@ -623,7 +627,7 @@ var _Sources = (() => {
         SourceIntents3[SourceIntents3["SETTINGS_UI"] = 32] = "SETTINGS_UI";
       })(SourceIntents2 = exports.SourceIntents || (exports.SourceIntents = {}));
       var ContentRating2;
-      (function(ContentRating3) {
+      (function (ContentRating3) {
         ContentRating3["EVERYONE"] = "EVERYONE";
         ContentRating3["MATURE"] = "MATURE";
         ContentRating3["ADULT"] = "ADULT";
@@ -638,7 +642,7 @@ var _Sources = (() => {
       Object.defineProperty(exports, "__esModule", { value: true });
       exports.HomeSectionType = void 0;
       var HomeSectionType;
-      (function(HomeSectionType2) {
+      (function (HomeSectionType2) {
         HomeSectionType2["singleRowNormal"] = "singleRowNormal";
         HomeSectionType2["singleRowLarge"] = "singleRowLarge";
         HomeSectionType2["doubleRow"] = "doubleRow";
@@ -659,20 +663,22 @@ var _Sources = (() => {
   var require_base = __commonJS({
     "node_modules/@paperback/types/lib/base/index.js"(exports) {
       "use strict";
-      var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
+      var __createBinding = exports && exports.__createBinding || (Object.create ? function (o, m, k, k2) {
         if (k2 === void 0) k2 = k;
         var desc = Object.getOwnPropertyDescriptor(m, k);
         if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-          desc = { enumerable: true, get: function() {
-            return m[k];
-          } };
+          desc = {
+            enumerable: true, get: function () {
+              return m[k];
+            }
+          };
         }
         Object.defineProperty(o, k2, desc);
-      } : function(o, m, k, k2) {
+      } : function (o, m, k, k2) {
         if (k2 === void 0) k2 = k;
         o[k2] = m[k];
       });
-      var __exportStar = exports && exports.__exportStar || function(m, exports2) {
+      var __exportStar = exports && exports.__exportStar || function (m, exports2) {
         for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports2, p)) __createBinding(exports2, m, p);
       };
       Object.defineProperty(exports, "__esModule", { value: true });
@@ -698,20 +704,22 @@ var _Sources = (() => {
   var require_lib = __commonJS({
     "node_modules/@paperback/types/lib/index.js"(exports) {
       "use strict";
-      var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
+      var __createBinding = exports && exports.__createBinding || (Object.create ? function (o, m, k, k2) {
         if (k2 === void 0) k2 = k;
         var desc = Object.getOwnPropertyDescriptor(m, k);
         if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-          desc = { enumerable: true, get: function() {
-            return m[k];
-          } };
+          desc = {
+            enumerable: true, get: function () {
+              return m[k];
+            }
+          };
         }
         Object.defineProperty(o, k2, desc);
-      } : function(o, m, k, k2) {
+      } : function (o, m, k, k2) {
         if (k2 === void 0) k2 = k;
         o[k2] = m[k];
       });
-      var __exportStar = exports && exports.__exportStar || function(m, exports2) {
+      var __exportStar = exports && exports.__exportStar || function (m, exports2) {
         for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports2, p)) __createBinding(exports2, m, p);
       };
       Object.defineProperty(exports, "__esModule", { value: true });
@@ -776,7 +784,7 @@ var _Sources = (() => {
   ]);
   var fromCodePoint = (
     // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition, n/no-unsupported-features/es-builtins
-    (_a = String.fromCodePoint) !== null && _a !== void 0 ? _a : function(codePoint) {
+    (_a = String.fromCodePoint) !== null && _a !== void 0 ? _a : function (codePoint) {
       let output = "";
       if (codePoint > 65535) {
         codePoint -= 65536;
@@ -797,7 +805,7 @@ var _Sources = (() => {
 
   // node_modules/entities/dist/esm/decode.js
   var CharCodes;
-  (function(CharCodes2) {
+  (function (CharCodes2) {
     CharCodes2[CharCodes2["NUM"] = 35] = "NUM";
     CharCodes2[CharCodes2["SEMI"] = 59] = "SEMI";
     CharCodes2[CharCodes2["EQUALS"] = 61] = "EQUALS";
@@ -813,7 +821,7 @@ var _Sources = (() => {
   })(CharCodes || (CharCodes = {}));
   var TO_LOWER_BIT = 32;
   var BinTrieFlags;
-  (function(BinTrieFlags2) {
+  (function (BinTrieFlags2) {
     BinTrieFlags2[BinTrieFlags2["VALUE_LENGTH"] = 49152] = "VALUE_LENGTH";
     BinTrieFlags2[BinTrieFlags2["BRANCH_LENGTH"] = 16256] = "BRANCH_LENGTH";
     BinTrieFlags2[BinTrieFlags2["JUMP_TABLE"] = 127] = "JUMP_TABLE";
@@ -831,7 +839,7 @@ var _Sources = (() => {
     return code === CharCodes.EQUALS || isAsciiAlphaNumeric(code);
   }
   var EntityDecoderState;
-  (function(EntityDecoderState2) {
+  (function (EntityDecoderState2) {
     EntityDecoderState2[EntityDecoderState2["EntityStart"] = 0] = "EntityStart";
     EntityDecoderState2[EntityDecoderState2["NumericStart"] = 1] = "NumericStart";
     EntityDecoderState2[EntityDecoderState2["NumericDecimal"] = 2] = "NumericDecimal";
@@ -839,7 +847,7 @@ var _Sources = (() => {
     EntityDecoderState2[EntityDecoderState2["NamedEntity"] = 4] = "NamedEntity";
   })(EntityDecoderState || (EntityDecoderState = {}));
   var DecodingMode;
-  (function(DecodingMode2) {
+  (function (DecodingMode2) {
     DecodingMode2[DecodingMode2["Legacy"] = 0] = "Legacy";
     DecodingMode2[DecodingMode2["Strict"] = 1] = "Strict";
     DecodingMode2[DecodingMode2["Attribute"] = 2] = "Attribute";
@@ -1026,9 +1034,9 @@ var _Sources = (() => {
         this.treeIndex = determineBranch(decodeTree, current, this.treeIndex + Math.max(1, valueLength), char);
         if (this.treeIndex < 0) {
           return this.result === 0 || // If we are parsing an attribute
-          this.decodeMode === DecodingMode.Attribute && // We shouldn't have consumed any characters after the entity,
-          (valueLength === 0 || // And there should be no invalid characters.
-          isEntityInAttributeInvalidEnd(char)) ? 0 : this.emitNotTerminatedNamedEntity();
+            this.decodeMode === DecodingMode.Attribute && // We shouldn't have consumed any characters after the entity,
+            (valueLength === 0 || // And there should be no invalid characters.
+              isEntityInAttributeInvalidEnd(char)) ? 0 : this.emitNotTerminatedNamedEntity();
         }
         current = decodeTree[this.treeIndex];
         valueLength = (current & BinTrieFlags.VALUE_LENGTH) >> 14;
@@ -1215,12 +1223,12 @@ var _Sources = (() => {
 
   // node_modules/entities/dist/esm/index.js
   var EntityLevel;
-  (function(EntityLevel2) {
+  (function (EntityLevel2) {
     EntityLevel2[EntityLevel2["XML"] = 0] = "XML";
     EntityLevel2[EntityLevel2["HTML"] = 1] = "HTML";
   })(EntityLevel || (EntityLevel = {}));
   var EncodingMode;
-  (function(EncodingMode2) {
+  (function (EncodingMode2) {
     EncodingMode2[EncodingMode2["UTF8"] = 0] = "UTF8";
     EncodingMode2[EncodingMode2["ASCII"] = 1] = "ASCII";
     EncodingMode2[EncodingMode2["Extensive"] = 2] = "Extensive";
@@ -1586,7 +1594,7 @@ var _Sources = (() => {
   };
 
   // src/DesuME/DesuME.ts
-  var DOMAIN = "https://desu.me";
+  var DOMAIN = "https://desu.store";
   var API = `${DOMAIN}/manga/api`;
   var DesuMEInfo = {
     version: "2.0.3",
@@ -1594,7 +1602,7 @@ var _Sources = (() => {
     icon: "icon.png",
     author: "xOnlyFadi",
     authorWebsite: "https://github.com/xOnlyFadi",
-    description: "Extension that pulls from desu.me.",
+    description: "Extension that pulls from desu.store.",
     contentRating: import_types.ContentRating.EVERYONE,
     websiteBaseURL: DOMAIN,
     intents: import_types.SourceIntents.HOMEPAGE_SECTIONS | import_types.SourceIntents.MANGA_CHAPTERS,
@@ -1816,4 +1824,4 @@ Please go to Settings > Sources > ${DesuMEInfo.name} and press Cloudflare Bypass
   };
   return __toCommonJS(DesuME_exports);
 })();
-this.Sources = _Sources; if (typeof exports === 'object' && typeof module !== 'undefined') {module.exports.Sources = this.Sources;}
+this.Sources = _Sources; if (typeof exports === 'object' && typeof module !== 'undefined') { module.exports.Sources = this.Sources; }
